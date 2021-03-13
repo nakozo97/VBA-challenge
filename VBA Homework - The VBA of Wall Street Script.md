@@ -67,7 +67,7 @@ Sub Multiple_year_stock_data()
                     percent_change = 0
                     
                     ElseIf (open_price = 0 And close_price <> 0) Then
-                        percent_chate = 1
+                        percent_change = 1
                         
                         Else
                             percent_change = (close_price - open_price) / (open_price)
